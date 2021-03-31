@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image:  url("bubble.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+#tint-background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    overflow: hidden;
+
+}
+
+#wrapper {
+    padding: 3rem;
+    padding-bottom: 2rem;
+    border-style: hidden;
+    background-color: rgba(0, 0, 0, 0.6);  
+    overflow: hidden;
+
+}
+
+
+/*
+@keyframes box {
+        0%  {
+            background-color:red; left:0px; top:0px;
+        }
+
+        25% {
+            background-color:yellow; left:50px; top:0px;
+        }
+
+        50% {
+            background-color:blue; left:50px; top:50px;
+        }
+
+        75% {
+            background-color:green; left:0px; top:50px;
+        }
+
+        100% {
+            background-color:red; left:0px; top:0px;
+        }
+}
+
+.slide-box {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    background-color: red;
+    animation: box 10s infinite;
+    animation-delay: -2s;
+}
+*/
+/*formulär*/
+.form-title {
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+}
+
+.table-title {
+    margin: 3rem 0 1rem 0;
+    text-align: center;
+}
+
+.form-input {
+    width: 33rem;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.7s;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+/*hover for form and table*/
+
+.form-input:hover {
+    background-color: #D898E0;
+    color: black;
+    transition: 0.7s;
+}
+
+.form-message {
+    width: 33rem;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+.my-button {
+    width: 33rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    
+}
+
+/*tabell*/
+table {
+    border-collapse: collapse;
+}
+
+.table-boxes {
+    width: 100%;
+    border-collapse: separate;
+    overflow: auto;
+}
+
+th {
+    border-left: none;
+    text-align: left;
+    padding-left: 1rem;
+    padding: 1rem;
+    background-color: black; 
+}
+
+td {
+    padding: 1rem;
+}
+
+.table-boxes:hover {
+    background-color: #D898E0;
+    color: black;
+    transition: 0.7s;
+    border-collapse: collapse;
+}
+ 
